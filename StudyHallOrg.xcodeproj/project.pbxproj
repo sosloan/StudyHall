@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9BA478972C9FDB78007618E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA4787A2C9FDB76007618E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA478812C9FDB76007618E7;
+			remoteInfo = StudyHallOrg;
+		};
+		9BA478A12C9FDB78007618E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA4787A2C9FDB76007618E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BA478812C9FDB76007618E7;
+			remoteInfo = StudyHallOrg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BA478822C9FDB76007618E7 /* StudyHallOrg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyHallOrg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA478962C9FDB78007618E7 /* StudyHallOrgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyHallOrgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA478A02C9FDB78007618E7 /* StudyHallOrgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyHallOrgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9BA478A82C9FDB78007618E7 /* Exceptions for "StudyHallOrg" folder in "StudyHallOrg" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9BA478812C9FDB76007618E7 /* StudyHallOrg */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9BA478842C9FDB76007618E7 /* StudyHallOrg */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9BA478A82C9FDB78007618E7 /* Exceptions for "StudyHallOrg" folder in "StudyHallOrg" target */,
+			);
+			path = StudyHallOrg;
+			sourceTree = "<group>";
+		};
+		9BA478992C9FDB78007618E7 /* StudyHallOrgTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyHallOrgTests;
+			sourceTree = "<group>";
+		};
+		9BA478A32C9FDB78007618E7 /* StudyHallOrgUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyHallOrgUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BA4787F2C9FDB76007618E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA478932C9FDB78007618E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA4789D2C9FDB78007618E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA478792C9FDB76007618E7 = {
+			isa = PBXGroup;
+			children = (
+				9BA478842C9FDB76007618E7 /* StudyHallOrg */,
+				9BA478992C9FDB78007618E7 /* StudyHallOrgTests */,
+				9BA478A32C9FDB78007618E7 /* StudyHallOrgUITests */,
+				9BA478832C9FDB76007618E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BA478832C9FDB76007618E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA478822C9FDB76007618E7 /* StudyHallOrg.app */,
+				9BA478962C9FDB78007618E7 /* StudyHallOrgTests.xctest */,
+				9BA478A02C9FDB78007618E7 /* StudyHallOrgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BA478812C9FDB76007618E7 /* StudyHallOrg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA478A92C9FDB78007618E7 /* Build configuration list for PBXNativeTarget "StudyHallOrg" */;
+			buildPhases = (
+				9BA4787E2C9FDB76007618E7 /* Sources */,
+				9BA4787F2C9FDB76007618E7 /* Frameworks */,
+				9BA478802C9FDB76007618E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9BA478842C9FDB76007618E7 /* StudyHallOrg */,
+			);
+			name = StudyHallOrg;
+			packageProductDependencies = (
+			);
+			productName = StudyHallOrg;
+			productReference = 9BA478822C9FDB76007618E7 /* StudyHallOrg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA478952C9FDB78007618E7 /* StudyHallOrgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA478AE2C9FDB78007618E7 /* Build configuration list for PBXNativeTarget "StudyHallOrgTests" */;
+			buildPhases = (
+				9BA478922C9FDB78007618E7 /* Sources */,
+				9BA478932C9FDB78007618E7 /* Frameworks */,
+				9BA478942C9FDB78007618E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA478982C9FDB78007618E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9BA478992C9FDB78007618E7 /* StudyHallOrgTests */,
+			);
+			name = StudyHallOrgTests;
+			packageProductDependencies = (
+			);
+			productName = StudyHallOrgTests;
+			productReference = 9BA478962C9FDB78007618E7 /* StudyHallOrgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BA4789F2C9FDB78007618E7 /* StudyHallOrgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA478B12C9FDB78007618E7 /* Build configuration list for PBXNativeTarget "StudyHallOrgUITests" */;
+			buildPhases = (
+				9BA4789C2C9FDB78007618E7 /* Sources */,
+				9BA4789D2C9FDB78007618E7 /* Frameworks */,
+				9BA4789E2C9FDB78007618E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA478A22C9FDB78007618E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9BA478A32C9FDB78007618E7 /* StudyHallOrgUITests */,
+			);
+			name = StudyHallOrgUITests;
+			packageProductDependencies = (
+			);
+			productName = StudyHallOrgUITests;
+			productReference = 9BA478A02C9FDB78007618E7 /* StudyHallOrgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA4787A2C9FDB76007618E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9BA478812C9FDB76007618E7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9BA478952C9FDB78007618E7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9BA478812C9FDB76007618E7;
+					};
+					9BA4789F2C9FDB78007618E7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9BA478812C9FDB76007618E7;
+					};
+				};
+			};
+			buildConfigurationList = 9BA4787D2C9FDB76007618E7 /* Build configuration list for PBXProject "StudyHallOrg" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BA478792C9FDB76007618E7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9BA478832C9FDB76007618E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BA478812C9FDB76007618E7 /* StudyHallOrg */,
+				9BA478952C9FDB78007618E7 /* StudyHallOrgTests */,
+				9BA4789F2C9FDB78007618E7 /* StudyHallOrgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BA478802C9FDB76007618E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA478942C9FDB78007618E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA4789E2C9FDB78007618E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BA4787E2C9FDB76007618E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA478922C9FDB78007618E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA4789C2C9FDB78007618E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA478982C9FDB78007618E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA478812C9FDB76007618E7 /* StudyHallOrg */;
+			targetProxy = 9BA478972C9FDB78007618E7 /* PBXContainerItemProxy */;
+		};
+		9BA478A22C9FDB78007618E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BA478812C9FDB76007618E7 /* StudyHallOrg */;
+			targetProxy = 9BA478A12C9FDB78007618E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9BA478AA2C9FDB78007618E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyHallOrg/StudyHallOrg.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyHallOrg/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VHJRCPXH6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyHallOrg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloan.StudyHallOrg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BA478AB2C9FDB78007618E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyHallOrg/StudyHallOrg.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyHallOrg/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VHJRCPXH6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyHallOrg/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloan.StudyHallOrg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BA478AC2C9FDB78007618E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BA478AD2C9FDB78007618E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BA478AF2C9FDB78007618E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VHJRCPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloan.StudyHallOrgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyHallOrg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyHallOrg";
+			};
+			name = Debug;
+		};
+		9BA478B02C9FDB78007618E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VHJRCPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloan.StudyHallOrgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyHallOrg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyHallOrg";
+			};
+			name = Release;
+		};
+		9BA478B22C9FDB78007618E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VHJRCPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloan.StudyHallOrgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyHallOrg;
+			};
+			name = Debug;
+		};
+		9BA478B32C9FDB78007618E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VHJRCPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sloan.StudyHallOrgUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyHallOrg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BA4787D2C9FDB76007618E7 /* Build configuration list for PBXProject "StudyHallOrg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA478AC2C9FDB78007618E7 /* Debug */,
+				9BA478AD2C9FDB78007618E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA478A92C9FDB78007618E7 /* Build configuration list for PBXNativeTarget "StudyHallOrg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA478AA2C9FDB78007618E7 /* Debug */,
+				9BA478AB2C9FDB78007618E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA478AE2C9FDB78007618E7 /* Build configuration list for PBXNativeTarget "StudyHallOrgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA478AF2C9FDB78007618E7 /* Debug */,
+				9BA478B02C9FDB78007618E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA478B12C9FDB78007618E7 /* Build configuration list for PBXNativeTarget "StudyHallOrgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA478B22C9FDB78007618E7 /* Debug */,
+				9BA478B32C9FDB78007618E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA4787A2C9FDB76007618E7 /* Project object */;
+}
